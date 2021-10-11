@@ -12,6 +12,15 @@
     "disk": "20",
     "swap": "2",
     "url": "https://hub.docker.com/_/logstash"
-  }
+  },
+  "services":[
+    {
+      "name": "postgresql",
+      "port": "5432",
+      "description_cn": "TCP 访问PostgreSQL数据库",
+      "description_en": "Accessing PostgreSQL database with TCP",
+      "required": "Y"
+    }
+  ]
 
 }
